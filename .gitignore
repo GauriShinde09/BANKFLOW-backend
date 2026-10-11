@@ -1,0 +1,35 @@
+
+# Maven build output
+/target/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+src/main/resources/application-local.properties
+src/main/resources/application-secret.properties
+
+# STS / Eclipse
+.classpath
+.factorypath
+.project
+.settings/
+.apt_generated/
+.springBeans
+.sts4-cache/
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code workspace settings
+.vscode/
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
