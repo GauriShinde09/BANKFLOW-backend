@@ -83,7 +83,10 @@ public class Config {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-            List.of("http://localhost:5173")
+            List.of(
+                "http://localhost:5173",
+                "https://bankflow-frontend.vercel.app"
+            )
         );
 
         configuration.setAllowedMethods(
